@@ -10,7 +10,6 @@
 | the IoC container for the system binding all of the various parts.
 |
 */
-Dotenv::load(__DIR__.'/../');
 
 $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
