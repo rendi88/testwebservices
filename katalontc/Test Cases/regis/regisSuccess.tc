@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>regisSuccess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c20af12c-e6f6-4609-bf45-6eef0e29c5e5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df51cedd-1d15-471c-8317-4086cddaa010</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa4ac625-46d6-4e6a-86b0-15cd2d2ec234</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9794ca04-92bf-4d55-a556-591cf11c55f8</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eead7f3a-7140-462a-a53d-a781ac410bdb</id>
+      <masked>false</masked>
+      <name>PasswordConfirm</name>
+   </variable>
+</TestCaseEntity>

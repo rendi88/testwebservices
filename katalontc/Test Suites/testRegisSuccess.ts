@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>testRegisSuccess</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8a9e0af7-ddcf-4425-8081-ada3f6ef0b7a</testSuiteGuid>
+   <testCaseLink>
+      <guid>357114b7-5872-4864-8e0b-4054079da04f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/browser/openBrowser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42ccabba-77ca-4463-8589-be5301764077</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/regis/regisSuccess</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>62a57084-0a50-4558-ac36-8dab298a1349</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dataRegister</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>62a57084-0a50-4558-ac36-8dab298a1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>df51cedd-1d15-471c-8317-4086cddaa010</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62a57084-0a50-4558-ac36-8dab298a1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nama</value>
+         <variableId>fa4ac625-46d6-4e6a-86b0-15cd2d2ec234</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62a57084-0a50-4558-ac36-8dab298a1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9794ca04-92bf-4d55-a556-591cf11c55f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62a57084-0a50-4558-ac36-8dab298a1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>eead7f3a-7140-462a-a53d-a781ac410bdb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d75a6462-05df-4b91-8e47-9805852bca30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/browser/closebrowser</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

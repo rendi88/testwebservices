@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API_get_siswa</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc1c257b-c453-49a2-b5a0-d29ad60e6923</testCaseGuid>
+</TestCaseEntity>

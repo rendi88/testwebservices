@@ -43,6 +43,14 @@ jobs:
             php artisan migrate --force
       - run: ./vendor/bin/phpunit
 
+      #katalon
+      - run:
+          name: Execute Katalon Studio
+          command: Katalon_Studio_Linux_64-6.3.3/katalon -noSplash -runMode=console -consoleLog -noExit -projectPath="katalontc/libraryTest.prj" -retry=0 -testSuitePath="Test Suites/testRegisSuccess" -executionProfile="default" -browserType="Chrome"
+      - store-test_results:
+          path: ./Reports
+      - store-artifacts:
+          path: ./Reports
 workflows:
   version: 2
   notify_deploy:
