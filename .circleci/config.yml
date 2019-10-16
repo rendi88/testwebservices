@@ -44,11 +44,11 @@ jobs:
       - run: ./vendor/bin/phpunit
 
       #katalon
+      #chmod +w ./Katalon_Studio_Linux_64-6.3.3/katalon
       - run:
           name: Execute Katalon Studio
           command: |
-            chmod +w Katalon_Studio_Linux_64-6.3.3/katalon
-            Katalon_Studio_Linux_64-6.3.3/katalon -noSplash -runMode=console -consoleLog -noExit -projectPath="katalontc/libraryTest.prj" -retry=0 -testSuitePath="Test Suites/testRegisSuccess" -executionProfile="default" -browserType="Chrome"
+            ./Katalon_Studio_Linux_64-6.3.3/katalon -noSplash -runMode=console -consoleLog -noExit -projectPath="./katalontc/libraryTest.prj" -retry=0 -testSuitePath="./katalontc/Test Suites/testRegisSuccess" -executionProfile="default" -browserType="Chrome"
       - store-test_results:
           path: ./Reports
       - store-artifacts:
